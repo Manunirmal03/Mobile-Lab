@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="enter first value"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="-210dp"
+        android:hint="enter second value"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="-250dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Substract"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="60dp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-260dp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divide"
+
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="60dp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="292dp" />
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Result"
+
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="-230dp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="489dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
