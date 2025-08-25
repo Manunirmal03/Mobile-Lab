@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:hint="Name"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Username"
+        android:layout_marginLeft="-210dp"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="email id"
+        android:layout_marginLeft="-210dp"
+        android:layout_marginTop="150dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="phone no"
+        android:layout_marginLeft="-210dp"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_marginLeft="-210dp"
+        android:layout_marginTop="250dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:layout_marginLeft="-240dp"
+        android:layout_marginTop="300dp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="360dp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="558dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
